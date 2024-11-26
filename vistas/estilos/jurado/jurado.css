@@ -1,0 +1,190 @@
+.cabecera_tesiss{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.titulo_modulo,
+.cantidad_coincidencias,
+.seccion_buscador{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.titulo_modulos{
+    font-size: 18px;
+    width: 200px;
+}
+
+.cantidad_coincidencias{
+    justify-content: center;
+    width: 220px;
+}
+
+.seccion_buscador{
+    width: 400px;
+    padding-left: 40px;
+}
+
+.seccion_buscador>input{
+    height: 50px;
+    width: 300px;
+    border: 2px solid #6c757d;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    padding: 0 20px 0 45px;
+}
+
+.seccion_buscador>i{
+    position: absolute;
+    z-index: 0;
+    margin: 0 20px 0 15px;
+    color: #6c757d;
+    font-size: 18px;
+}
+
+input:focus{
+    outline: none;
+    border: solid 3px #009685;
+}
+
+input:focus + i{
+    color: #009685;
+}
+
+.opciones-interaccion{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.modo_visualizacion{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 800px;
+    height: 100%;
+}
+
+.modo_visualizacion a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.modo_visualizacion #mostrar_todos_a{
+    width: 155px;
+}
+
+.modo_visualizacion>a:hover{
+    font-weight: bold;
+    border-bottom: 3px solid #009685;
+}
+
+.seccion_agregar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: calc(100% - 800px);
+    height: 100%;
+}
+
+.seccion_agregar>button{
+    width: 140px;
+    height: 100%;
+    border: none;
+    background-color: #009685;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.seccion_agregar>button:hover{
+    cursor: pointer;
+    background-color: #00a390;
+}
+
+.seccion_agregar>button>i{
+    margin-right: 5px;
+}
+
+.seccion_tabla{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.seccion_tabla>table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(243, 243, 243);
+}
+
+thead{
+    background-color: #009685;
+    color: #fff;
+    text-align: left;
+    height: 55px;
+}
+
+th,td{
+    padding-left: 10px;
+}
+
+td{
+    height: 63px;
+}
+
+th:nth-child(4){
+    text-align: center;
+}
+
+tr>td:nth-child(1), tr>td:nth-child(3){
+    width: 25%;
+}
+
+tr>td:nth-child(2){
+    width: 20%;
+}
+
+tr>td:nth-child(4){
+    text-align: center;
+    width: 15%;
+    word-spacing: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #fff;
+}
+
+
+tr:hover td {
+    color: #44b478;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+
+button{
+    background: #20c997;
+}
+
+button :hover{
+background: white ;
+color: #20c997;
+}
+
+td i{
+    cursor: pointer;
+    color: #20c997;
+    font-size: 200%;
+}
+
+td i:hover{
+  background: white;
+  color: red;
+}

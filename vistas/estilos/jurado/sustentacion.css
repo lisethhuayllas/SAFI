@@ -1,0 +1,110 @@
+.tablaFechas{
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+  
+}
+
+th,td{
+    padding: 15px;
+    
+}
+.tablaFechas>td{
+    width: 80px;
+}
+
+thead{
+    color:  #000000;;
+    border: solid 1px;
+   
+}
+
+.F_titulo1{
+    background: rgb(243, 243, 243);
+    height: 50px;
+    margin-top: -15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+.cuadroF0{
+    text-align: center;
+}
+
+.cuadroF{
+    background: rgb(243, 243, 243);
+    height: 620px;
+    margin-top: -15px;
+    padding-top: 5px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+
+
+.cuadroF1{
+    background:  white;
+    height: 40px;
+    margin-left: 25px ;
+    width: 88%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.Des{
+    color: #748DA6;
+    margin-left: 15px;
+    margin-bottom: 5px;
+   
+}
+.NotDatos{
+    color: red;
+    text-align: center;
+}
+.fa-location-dot{
+    color:  #748DA6;
+}
+.fa-calendar {
+    color:  #748DA6;
+}
+.fa-comment{
+    color:  #748DA6;
+}
+.fa-clock{
+    color:  #748DA6;
+}
+
+
+.titulo-modulo>p{
+    margin-left: 40%;
+}
+.titulo-modulo{
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -10px; 
+    background-color:#F6F6C9 ;
+    width: 102%;
+    height: 40px;
+    border-radius: 5px 5px 0 0;
+    color:#2d3436;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

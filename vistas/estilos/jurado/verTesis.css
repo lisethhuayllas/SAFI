@@ -1,0 +1,15 @@
+.verTesis {
+    width: 100%;
+    height: 100vh; /* Ocupar toda la altura de la ventana */
+  }
+  
+#tesis {
+    width: 100%;
+    height: 100vh; /* Ocupar toda la altura de la ventana */
+}
+  
+#tesis {
+    width: 100%;
+    height: 100%;
+}
+  
